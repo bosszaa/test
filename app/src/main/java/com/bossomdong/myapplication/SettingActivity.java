@@ -46,27 +46,40 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
                 btnWomen.setChecked(true);
                 break;
             //TODO: sea and forest cases
+            switch (prefsUtils.getBg(this)) {
+                case PrefsUtils.SEA:
+                    btnSea.setChecked(true);
+                    break;
+                case PrefsUtils.FOREST:
+                    btnForest.setChecked(true);
+                    break;
+            }
+        }
+        }
+
+        @Override
+        public void onClick (View v){
+            RadioButton clickedBtn = (RadioButton) v;
+            clickedBtn.setChecked(true);
+            switch (clickedBtn.getId()) {
+                case R.id.btn_sea:
+                    prefsUtils.setBg(this, PrefsUtils.SEA);
+                    Log.d(TAG, "onClick: sea");
+                    break;
+                case R.id.btn_forest:
+                    prefsUtils.setBg(this, PrefsUtils.FOREST);
+                    Log.d(TAG, "onClick: forest");
+                    break;
+                case R.id.btn_man:
+                    prefsUtils.setModel(this, PrefsUtils.MODEL_MAN);
+                    Log.d(TAG, "onClick: man");
+                    break;
+                case R.id.btn_women:
+                    prefsUtils.setModel(this, PrefsUtils.MODEL_WOMEN);
+                    Log.d(TAG, "onClick: women");
+                    break;
+            }
+            Log.d(TAG, "onClick: " + prefsUtils.getModel(this));
         }
     }
 
-    @Override
-    public void onClick(View v) {
-        RadioButton clickedBtn = (RadioButton)v;
-        clickedBtn.setChecked(true);
-        switch (clickedBtn.getId()) {
-            case R.id.btn_sea:
-                break;
-            case R.id.btn_forest:
-                break;
-            case R.id.btn_man:
-                prefsUtils.setModel(this, PrefsUtils.MODEL_MAN);
-                Log.d(TAG, "onClick: man");
-                break;
-            case R.id.btn_women:
-                prefsUtils.setModel(this, PrefsUtils.MODEL_WOMEN);
-                Log.d(TAG, "onClick: women");
-                break;
-        }
-        Log.d(TAG, "onClick: " + prefsUtils.getModel(this));
-    }
-}
