@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity"
+    tools:context=".MeditationActivity"
     android:orientation="vertical"
     android:padding="10dp"
     android:gravity="center"
@@ -24,7 +24,7 @@
             android:layout_height="170dp"
             android:layout_margin="10dp">
             <LinearLayout
-                android:id="@+id/btn_manual"
+                android:id="@+id/btn_one"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
@@ -32,14 +32,14 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:src="@drawable/im1"
+                    android:src="@drawable/tellstep1"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Manual"/>
+                    android:text="Step1"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -48,7 +48,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Application Guide"
+                    android:text="Level1"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -61,7 +61,7 @@
             android:layout_height="170dp"
             android:layout_margin="10dp">
             <LinearLayout
-                android:id="@+id/btn_meditation"
+                android:id="@+id/btn_two"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
@@ -69,14 +69,14 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:src="@drawable/stand2"
+                    android:src="@drawable/tellstep2"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Meditation"/>
+                    android:text="Step2"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -85,7 +85,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Teaching meditation"
+                    android:text="Level2"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -106,7 +106,7 @@
             android:layout_height="170dp"
             android:layout_margin="10dp">
             <LinearLayout
-                android:id="@+id/btn_holyday"
+                android:id="@+id/btn_tree"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
@@ -114,14 +114,14 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:src="@drawable/unnamed"
+                    android:src="@drawable/tellstep3"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="calendar"/>
+                    android:text="Step3"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -130,7 +130,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Check Buddha's Day"
+                    android:text="Level3"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -144,7 +144,7 @@
             android:layout_margin="10dp">
 
             <LinearLayout
-                android:id="@+id/btn_prayer"
+                android:id="@+id/btn_four"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -154,27 +154,27 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:padding="10dp"
-                    android:src="@drawable/icon" />
+                    android:src="@drawable/tellstep4" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Pray"
+                    android:text="Step4"
                     android:textStyle="bold" />
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_margin="10dp"
-                     />
+                    />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="Various prayers"
+                    android:text="Level4"
                     android:textColor="@android:color/darker_gray" />
 
             </LinearLayout>
@@ -194,7 +194,7 @@
             android:layout_height="170dp"
             android:layout_margin="10dp">
             <LinearLayout
-                android:id="@+id/btn_temple"
+                android:id="@+id/btn_five"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
@@ -202,14 +202,14 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:src="@drawable/temple"
+                    android:src="@drawable/tellstep5"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Temple"/>
+                    android:text="Step5"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -218,7 +218,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Find temple"
+                    android:text="Level5"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 
@@ -231,7 +231,7 @@
             android:layout_height="170dp"
             android:layout_margin="10dp">
             <LinearLayout
-                android:id="@+id/btn_setting"
+                android:id="@+id/btn_six"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
@@ -239,14 +239,14 @@
                 <ImageView
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:src="@drawable/settingicon"
+                    android:src="@drawable/tell6"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:layout_marginTop="10dp"
-                    android:text="Setting"/>
+                    android:text="Step6"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -255,7 +255,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Choose background and model"
+                    android:text="Level6"
                     android:padding="5dp"
                     android:textColor="@android:color/darker_gray"/>
 

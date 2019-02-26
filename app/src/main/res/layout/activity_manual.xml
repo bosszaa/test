@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManualActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/k1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            />
+        <ImageView
+            android:id="@+id/i2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/k2"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/i1"
+            />
+        <ImageView
+            android:id="@+id/i3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/k3"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/i2"
+            />
+        <ImageView
+            android:id="@+id/i4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/k4"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/i3"
+            />
+        <ImageView
+            android:id="@+id/i5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/k5"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/i4"
+            />
+        <ImageView
+            android:id="@+id/i6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/k6"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/i5"
+            />
+        <ImageView
+            android:id="@+id/i7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/k7"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/i6"
+            />
+        <ImageView
+            android:id="@+id/i8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/k8"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/i7"
+            />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</ScrollView>
